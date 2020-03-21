@@ -1,0 +1,103 @@
+ :root{
+     --gradient-green: linear-gradient(to right,#42E695 0%,#3BB2B8 100%,#42E695 100%);
+ }
+body{
+    background-color: #f9faff;
+}
+header{
+    text-align: center;
+}
+.section-login{
+    margin-top: 50px;
+}
+.content-login{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.title-login{
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.subtitle-login{
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.menu-app{
+    padding: 0px 50px 0px 0px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.menu-app a{
+    color: #333333;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.btn-app{
+    padding: 5px 15px 5px 15px !important;
+    margin-top: 4px !important;
+    color: #fff !important;
+    background-image: var(--gradient-green);
+    border: none !important;
+}
+
+
+.title-app{
+    color: #333333;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+#text-l{
+    text-align: left !important;
+}
+
+.content-user{
+    background-color: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.edit-verde{
+    color: mediumspringgreen;
+}
+
+.delete-red{
+    color: red;
+}
+
+.alert-session{
+     background-color: #f8d7da !important;
+     border-color: #333333;
+     color: #333333;
+}
+
+.alert-session a{
+     color: #333333;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
